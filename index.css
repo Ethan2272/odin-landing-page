@@ -74,15 +74,42 @@ nav {
  }
 
  #pyramid-image, #hero {
-    height: 300px;
+    height: 250px;
  }
 
-#section-2, #section-4 {
+ #pyramid-image {
+    width:500px;
+ }
+
+#section-2 {
     background-color: var(--white);
+    color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#image-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+}
+
+.square-image {
+    width: 180px;
+    height: 180px;
+    border: 4px solid var(--light-blue);
+    border-radius: 15px;
+}
+
 
 #section-3 {
     background-color: var(--gray);
+}
+
+#section-4 {
+    background-color: var(--white);
 }
 
 footer {
