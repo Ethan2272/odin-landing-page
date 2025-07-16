@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300');
+
 
 :root {
     --dark-blue: #1F2937;
     --white: #F9FAF8;
     --gray: #E5E7EB;
     --light-blue: #3882F6;
+}
+
+.weighted-text {
+    font-weight:900;
 }
 
 body {
@@ -26,7 +31,6 @@ nav {
 
 #header-logo {
     font-size: 24px;
-    font-weight:900;
 }
 
 #header-links {
@@ -56,7 +60,6 @@ nav {
 
 #hero-heading {
     font-size: 48px;
-    font-weight:900;
     margin: 0;
 }
 
@@ -105,7 +108,24 @@ nav {
 
 
 #section-3 {
+    padding-inline: 30%;
     background-color: var(--gray);
+    color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-text {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#speaker-name {
+    font-size: 24px;
+    align-self: flex-end;
 }
 
 #section-4 {
